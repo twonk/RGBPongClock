@@ -24,3 +24,9 @@ and an Ethernet Shield
 * http://hobbycomponents.com/index.php/dvbd/dvbd-ardu/ardu-shields/2012-ethernet-w5100-network-shield-for-arduino-uno-mega-2560-1280-328.html
 
 Arduino requests weather data from a local VM running node.js which, in turn, requests the forecast from OpenWeatherMap.org The node script parses the feed and returns the relevant data to the arduino.
+
+The clock was built on the shoulders of giants. Libraries required but not included with Arduino IDE:
+* Adafruit GFX https://github.com/adafruit/Adafruit-GFX-Library
+* RGBmatrixPanel https://github.com/adafruit/RGB-matrix-Panel
+* DS1307RTC http://www.pjrc.com/teensy/td_libs_DS1307RTC.html
+* ffft https://code.google.com/p/neuroelec/downloads/detail?name=ffft_library_for_Arduino_1.0.zip&can=2&q=
